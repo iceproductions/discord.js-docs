@@ -9,6 +9,7 @@
 import MainSource from '../../data/MainSource';
 import CollectionSource from '../../data/CollectionSource';
 import CommandoSource from '../../data/CommandoSource';
+import UnstableSource from '../../data/UnstableSource';
 import RPCSource from '../../data/RPCSource';
 import DocsNavbar from '../docs/Navbar.vue';
 
@@ -26,6 +27,7 @@ export default {
         [CollectionSource.id]: CollectionSource,
         [CommandoSource.id]: CommandoSource,
         [RPCSource.id]: RPCSource,
+        [UnstableSource.id]: UnstableSource,
       },
       source: MainSource,
       tag: MainSource.defaultTag,
